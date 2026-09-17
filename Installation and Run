@@ -1,0 +1,11 @@
+Creating an isolated Python environment is recommended.
+(#For exaample:
+conda create -n retrofit-opensees python=3.11
+conda activate retrofit-opensees)
+
+A typical environment requires packages such as:
+#pip install openseespy numpy pandas matplotlib scipy openpyxl xlsxwriter python-docx
+
+The current interface is interactive. The program requests the required structural, material, loading, analysis, and optimization parameters during execution.
+
+The user may choose which analyses to perform and may skip optional dynamic or reporting stages.
