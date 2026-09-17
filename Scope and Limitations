@@ -1,0 +1,19 @@
+This repository is a research and preliminary-design tool.
+
+The current implementation primarily addresses two-dimensional reinforced-concrete frame models.
+
+Important limitations include:
+
+the principal structural workflow is intended for RC structures;
+steel-section analysis is not currently fully integrated;
+the retrofit optimization uses linear structural analysis for candidate screening;
+the planar directional models do not represent the complete behaviour of a three-dimensional building;
+torsional response and full 3D diaphragm effects require a three-dimensional model;
+nonlinear member behaviour, cyclic degradation, and collapse mechanisms require more advanced nonlinear modelling;
+shear-wall foundations and wall-to-existing-structure connections require separate engineering verification;
+retrofit constructability must be checked by the engineer;
+cost results are comparative estimates and are not contractor quotations.
+
+The results should therefore support, rather than replace, engineering judgement.
+
+Final retrofit design should be independently verified using the applicable standards, National Annexes, nonlinear analysis procedures where required, and project-specific material, detailing, geotechnical, architectural, and construction information.
