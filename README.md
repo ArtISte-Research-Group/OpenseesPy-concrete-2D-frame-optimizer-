@@ -106,17 +106,7 @@ This separation is used to determine whether a global intervention, a local inte
 
 The retrofit module evaluates complete retrofit strategies rather than optimizing shear walls and concrete jacketing independently.
 
-A candidate strategy can be represented conceptually as
-
-\[
-\mathcal{S}_i =
-\left\{
-\text{shear-wall configuration},
-\text{concrete jacketing},
-\text{structural performance},
-\text{cost}
-\right\}.
-\]
+A candidate strategy can be represented conceptually.
 
 The optimization procedure follows the general sequence:
 
@@ -174,14 +164,7 @@ If a member cannot satisfy the required verification and detailing constraints w
 ## Global Retrofit Optimization
 
 The optimization evaluates the **complete intervention cost**
-
-\[
-C_{\text{retrofit}}
-=
-C_{\text{shear walls}}
-+
-C_{\text{jacketing}}.
-\]
+with possible shear walls and concrete jacketing candidates. 
 
 Feasible strategies must satisfy the prescribed structural and detailing constraints.
 
